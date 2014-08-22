@@ -44,7 +44,7 @@ always @(posedge clk)begin
 		ready <= ready_next;
 	end
 end
-always @ (*) begin
+always @(*)begin
 	if((ready==0) && (start==0) )
 		ready_next=1'b1;
 	else if ((ready==1) && (op==1))
