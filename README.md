@@ -12,4 +12,4 @@ This RSA 256-bit calculator operates the computation of encryption or decryption
 For more information of RSA algorithm, please see http://en.wikipedia.org/wiki/RSA_(algorithm)
 
 
-------Note that the code should be run on FPGA DE2-115.-----
+[Note that the code should be run on FPGA DE2-115]
